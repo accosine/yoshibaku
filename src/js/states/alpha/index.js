@@ -4,7 +4,8 @@ const create = require('./create');
 const update = require('./update');
 
 function alpha(game) {
-  this.spinner = null;
+  this.field = null;
+  this.emojis = [];
 }
 
 alpha.prototype = {

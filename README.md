@@ -38,3 +38,6 @@ Super Dr. Yoshibaku Fighter (TURBO)
 - "cleaner" is a one off item and deletes uncommon block patterns
 - "combo"-chains unlock items
 
+# Assets
+All graphics are CC-BY 4.0 Twitter Inc.
+
