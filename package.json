@@ -1,0 +1,25 @@
+{
+  "name": "palisade",
+  "version": "0.0.0",
+  "description": "A Phaser game",
+  "main": "webpack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server -d --host 0.0.0.0 --content-base ./src/",
+    "lint": "eslint src/"
+  },
+  "author": "Duncan Kolba",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-import-resolver-webpack": "^0.3.0",
+    "eslint-plugin-import": "^1.8.1",
+    "expose-loader": "^0.7.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "phaser": "^2.6.0"
+  }
+}
