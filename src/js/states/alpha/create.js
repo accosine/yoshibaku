@@ -19,13 +19,8 @@ function create(game) {
   this.emojis.forEach((emoji) => {
     emoji.body.collideWorldBounds = true;
     emoji.body.bounce.y = 0.1;
-    emoji.body.gravity.setTo(0, 100);
+    emoji.body.acceleration.setTo(0, 100);
   });
-
-  this.rect = game.add.sprite(50, 150, null);
-  game.physics.enable(this.rect, Phaser.Physics.ARCADE);
-  this.rect.body.setSize(150, 5, 0, 0); // set the size of the rectangle
-
 
 }
 
